@@ -1,0 +1,547 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
+}
+
+.nav-customize {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    backdrop-filter: blur (650px);
+    background-color: rgba(0, 0, 0, 0.566);
+}
+
+.call-part i {
+    height: 30px;
+    width: 30px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 19px;
+    transition: .5s;
+
+}
+
+.call-part i:hover {
+    box-shadow: 0 0 25px white;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.num {
+    font-size: 16px;
+}
+
+.header-btn {
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+    padding: 5px 25px;
+    background-color: white;
+}
+
+.call-part {
+    padding: 5px 10px 0 0;
+}
+
+/* header part end */
+
+.banner {
+    background-image: url(../image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+    position: relative;
+    width: 100%;
+}
+
+.banner-ultimate {
+    color: #d3a417;
+}
+
+.banner p {
+    font-weight: 300;
+    opacity: .9;
+    max-width: 80%;
+}
+
+.banner-button {
+    padding: 7px 16px;
+    background-color: white;
+    color: black;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    transition: .5s ease-out;
+    margin-top: 10px;
+
+}
+
+.banner-button:hover {
+    background-color: #d3a417;
+    border: 1.5px solid white;
+    box-sizing: border-box;
+    color: white;
+    box-shadow: 0 0 25px #d3a417;
+}
+
+.banner-right-img {
+    padding: 20px 0 0 35px;
+}
+
+.banner-right-img img {
+    height: 85%;
+}
+
+/* banner end */
+.some-about-us{
+    background-color: #0a051d;
+    color: white;
+}
+.some-about-us .about-us {
+    text-align: center;
+    padding: 50px 10px;
+    transition: .5s;
+    
+}
+.some-about-us .about-us:hover,
+.some-about-us .active{
+    background-color: #d3a417;
+}
+
+
+.some-about-us .about-us img {
+    width: 100px;
+    filter: brightness(0) invert(1);
+}
+
+
+.about-us-bottom{
+    background-color: #0a051d;
+    color: white;
+    padding-top: 80px;
+}
+.about-us-bottom-first-img{
+    height: 180px;
+    margin-top: 20px;
+   
+}
+.our-exprience{
+    background-color: #3d3a69;
+    height: 60px ;
+    width: 115px;
+    color: white;
+    padding-left: 25px;
+    padding-top: 8px;
+    border-radius: 8px;
+}
+.about-us-bottom-second-img{
+    height: 85%;
+    
+}
+.content{
+   max-width:85%;
+}
+.about-right-content h6{
+    color: #d3a417;
+}
+.about-right-content p{
+    font-size: .9rem;
+    opacity: .7;
+    line-height: 22px;
+
+}
+.about-right-content button{
+    height: 40px;
+    width: 22%;
+    background-color: white;
+    color: black;
+   border-radius: 5px;
+   transition: .5s;
+    
+}
+.about-right-content button:hover{
+    background-color: #d3a417;
+    color: white;
+    
+}
+         /* end */
+.zodac-sign{
+    background-image:url(../image/horocurty.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+}
+.heading{
+    text-align: center;
+}
+.heading h6{
+    color: #d3a417;
+}
+.zodac-content{
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 25px 0px;
+    transition: .9s;
+    width: 95%;
+}
+.zodac-content:hover{
+    border: ips solid #0a051d;
+    box-shadow: 0 0 20px #08cdb966;
+    transform: scale(1.1);
+   background-color: rgba(0, 0, 0, 0.411);
+}
+.zodac-content .main-img{
+    filter: brightness(0) invert(1);
+    height: 80px;
+}
+.zodac-content :hover .main-img{
+    filter: none;
+}
+.zodac-content:hover .main-img{
+animation-name: main-img-animated;
+animation-duration: 30s;
+animation-timing-function:ease;
+animation-delay: .2s;
+animation-iteration-count: infinite;
+}
+@keyframes main-img-animated{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.zodac-content h6{
+    color: #d3a417;
+    font-size: 15px;
+    margin: 8px 0;
+}
+.zodac-content p{
+    font-size: 15px;
+    opacity: .7;
+}
+.ab-one{
+    position: absolute;
+    top: 43px;
+    bottom: 0;
+    left: 2px;
+    right: 0;
+    z-index: 1;
+}
+.ab-one .middle-img-01{
+    filter: brightness(0) invert(1);
+    height: 40px;
+    
+}
+             /* end */
+
+             /* service start */
+
+.service{
+    background-color: #0a051d;
+    padding: 45px;
+}
+.service-heading{
+    text-align: center;
+    color: white;
+}
+.service-heading h6{
+    color: #d3a417;
+}
+.service-heading p{
+    font-weight: 200;
+    font-size:1rem ;
+    opacity: .8;
+}
+.service-box{
+    text-align: center;
+    color: white;
+    margin: 35px 0;
+   
+}
+.service-box img{
+    filter: brightness() invert(1);
+    height: 60px;
+   
+}
+.service-box h5{
+    color: #d3a417;
+    padding: 10px 0 0px 0;
+    font-size: 21px;
+    transition: .5s;
+}
+.service-box p{
+    opacity: .8;
+    font-weight: 200;
+}
+.service-box .ser-img {
+    transition: .5s ease;
+}
+.service-box:hover .ser-img  {
+    transform: translatey(-6px);
+}
+.service-box:hover h5{
+    color: whitesmoke;
+}
+.service-middle-font-img{
+    position: relative;
+}
+.service-middle-font-img img{
+    width: 100%;
+    z-index: 2;
+}
+.service-middle-font-img .animate-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 120px;
+    right: 0;
+    width: 368px;
+    z-index: 1;
+    animation-name: rounded-animate;
+    animation-duration: 60s;
+    animation-timing-function: ease-in;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+  
+    
+   
+}
+@keyframes rounded-animate{
+   
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.color{
+    background-color: #d3a417;
+    border-radius: 5px;
+}
+.service-bottom h5{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 25px;
+}
+.service-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
+.service-bottom p{
+    padding: 0 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+          /* service end */
+.horoscope{
+    background-image: url(../image/roadmap_bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:middle left;
+    background-color: #0a051d;
+    padding: 45px 0;
+    color: white;
+}
+.horoscope-heading{
+    text-align: center;
+}
+.horoscope-heading h6{
+    color: #d3a417;
+}
+.horoscope-heading a{
+    text-decoration: none;
+    margin: 20px 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 6px 18px;
+    border-radius: 5px;
+    display: inline-block;
+    color: black;
+}
+.horoscope-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(201, 194, 194, 0.119);
+    border-radius: 5px;
+}
+.horoscope-content img{
+    filter: brightness() invert(1);
+    height: 80px;
+    border-right: 1px solid yellowgreen;
+
+}
+.content{
+    padding: .5rem 1.5rem;   
+}
+.content p{
+    font-weight: 400;
+  
+}
+.content h5{
+    color: #d3a417;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    transition: .5s ease-in;
+}
+.content a:hover{
+    color: #d3a417;
+    font-weight: 400;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.gaping{
+    margin-top: 10px;
+    transition: .5s ease ease-in;
+
+}
+ .horoscope-content:hover .horo-img{
+    transform: scale(1.1);
+}
+.horoscope-btn {
+    text-align: center;
+}
+.horoscope-btn a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 7px 17px;
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 7px;
+   transition: .5s ease-in;
+    
+}
+.horoscope-btn a:hover{
+    background-color: #d3a417;
+    color: rgb(255, 255, 255);
+}
+       /* end */
+  .Zodiac-form-side{
+    background-color: #1d1a28;
+    color: white;
+  }
+  .zodiac-content{
+    margin-left: 95px;
+  }
+  .zodiac-content h6{
+    margin-top: 60px;
+    color: #d3a417;
+  }
+  .zodiac-content h2{
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  .zodiac-content p{
+    opacity: .7;
+    max-width: 500px;
+  }
+.zodac input{
+    display: block;
+    margin: 8px 0;
+    padding: 3px;
+    border-radius: 3px;
+    border: none;
+}
+.birth-part{
+    width: 65%;
+}
+.zodac .form-btn{
+    display:block;
+    margin-left: 165px ;
+    padding: 6px 20px;
+    margin-top: 10px;
+    background-color: #d3a417;
+    color: rgb(255, 255, 255);
+    transition: all .7s ease;
+    border-radius: 7px;
+    border: none;
+    box-shadow:0 0 4px #17c9d3,0 0 10px #0cd920 ;
+}
+.zodac .form-btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: none;   
+}
+           /* zodiac end */
+
+ .our-astroloser{
+    background-color: #0a051d;
+    background-image: url(../image/home-team.png),url(../image/moon-phasing1.png);
+    padding: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+ }
+ .heading-para{
+   margin: 10px 0 30px 0;
+ }
+ .astro img{
+    text-align: center;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+ }
+ .astro{
+    background-color: whitesmoke;
+    color: rgb(19, 18, 18);
+    padding: 50px 0;
+    border-radius: 7px;
+ }
+ .astro h6{
+    margin: 7px;
+ }
+ .astro-1{
+    text-align: center;
+    color: white;
+ }
+ /* end */
+ .count{
+    padding: 50px;
+    color: white;
+    background-color: #0a051d;
+    text-align: center;
+ }
+ .count p{
+    color: #d3a417;
+ }
